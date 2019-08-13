@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:background="@drawable/background">
+	
+	<LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+		
+		>
+	<ImageView
+		android:layout_width="150dp"
+		android:layout_height="140dp"
+		android:layout_marginLeft="20dp"
+		android:src="@drawable/welcome"
+    />
+	<TextView
+	    android:id="@+id/resName"
+		android:layout_width="300dp"
+		android:layout_height="40dp"
+	    android:layout_marginLeft="15dp"
+		android:layout_marginTop="50dp"
+		android:layout_marginRight="5dp"
+		android:textSize="27dp"
+		android:paddingLeft="10dp"
+		android:hint= "Favourite List"	
+	/>
+    </LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+        android:layout_width="360dp"
+        android:layout_height="100dp">
+	<ImageView
+		android:layout_width="150dp"
+		android:layout_height="85dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginTop="20dp"
+		android:src="@drawable/register"
+    />
+		<EditText
+	    android:id="@+id/restName"
+		android:layout_width="300dp"
+		android:layout_height="40dp"
+	    android:layout_marginLeft="15dp"
+		android:layout_marginTop="50dp"
+		android:layout_marginRight="5dp"
+		android:textSize="27dp"
+		android:paddingLeft="10dp"
+		android:hint= "Favourite List"	
+	/>
+		
+	</LinearLayout>
+	    <Button
+		android:id="@+id/addBtn"
+		android:layout_width="300dp"
+		android:layout_height="40dp"
+		android:layout_marginTop="20dp"
+		android:textAllCaps="false"
+		android:text="Add"
+		android:gravity="center"
+		android:textColor="#000000"
+		android:textSize="27dp"
+		android:background="#ede031"
+		android:layout_marginLeft="35dp"
+	/>
+</LinearLayout>

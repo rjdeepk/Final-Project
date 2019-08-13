@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	
+>
+	<TextView
+		android:layout_width="5dp"
+	android:layout_height="5dp"
+        
+		android:id="@+id/ur"
+		android:textSize="20dp"
+			
+    />
+	
+  <TextView
+    android:id="@+id/info"
+	android:layout_width="400dp"
+	android:layout_height="30dp"
+	android:background="#ede031"
+	android:fontFamily="Comic Sans MS"
+	android:textSize="15dp"
+
+	android:text= "Alo Restaurant"
+	android:textColor="#000000"
+/>
+  <ImageView
+	android:layout_width="300dp"
+	android:layout_height="150dp"
+	android:src="@drawable/alo"
+	
+    />
+  <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+>
+    <Button
+      android:id="@+id/offerBtn"
+      android:layout_width="100dp"
+      android:layout_height="30dp"
+      android:textAllCaps="false"
+      android:layout_marginLeft="30dp"
+      android:text="Offers"
+      android:textColor="#000000"
+      android:background="#ede031"
+/>
+    <Button
+      android:id="@+id/favBtn"
+      android:layout_width="100dp"
+      android:layout_height="30dp"
+      android:textAllCaps="false"
+      android:layout_marginLeft="30dp"
+      android:text="Add Favourite"
+      android:textColor="#000000"
+      android:background="#ede031"
+/>
+  </LinearLayout>
+  <TextView
+   android:id="@+id/add1"
+android:layout_width="200dp"
+android:layout_height="45dp"
+android:layout_marginLeft="50dp"
+android:textSize="15dp"
+android:gravity="center"
+android:textColor="#000000"
+android:hint= "Address: 27 Senwood St, Brampton, ON"
+/>
+  <TextView
+   android:id="@+id/p1"
+android:layout_width="200dp"
+android:layout_height="45dp"
+android:layout_marginLeft="50dp"
+android:textSize="15dp"
+android:gravity="center"
+android:textColor="#000000"
+android:hint= "Phone: 416-166-4222"	/>
+  <TextView
+   android:id="@+id/hr1"
+android:layout_width="200dp"
+android:layout_height="45dp"
+android:layout_marginLeft="50dp"
+android:textSize="15dp"
+android:gravity="center"
+android:hint= "Hours: Tuesday to Sunday (8a.m-12:30pm)"	/>
+  
+	<Button
+      android:id="@+id/bck"
+      android:layout_width="100dp"
+      android:layout_height="40dp"
+      android:textAllCaps="false"
+      android:layout_marginLeft="90dp"
+      android:text="Back"
+      android:textColor="#000000"
+      
+		
+/>
+
+</LinearLayout>

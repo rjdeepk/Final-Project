@@ -1,0 +1,50 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jebes\\OneDrive\\Desktop\\New folder\\pdevelopment\\RestaurantApp\\RestaurantApp.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jebes\\OneDrive\\Desktop\\New folder\\pdevelopment\\RestaurantApp\\RestaurantApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jebes\\OneDrive\\Desktop\\New folder\\pdevelopment\\RestaurantApp\\RestaurantApp.csproj",
+        "projectName": "RestaurantApp",
+        "projectPath": "C:\\Users\\jebes\\OneDrive\\Desktop\\New folder\\pdevelopment\\RestaurantApp\\RestaurantApp.csproj",
+        "packagesPath": "C:\\Users\\jebes\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jebes\\OneDrive\\Desktop\\New folder\\pdevelopment\\RestaurantApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jebes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid81"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid81": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid81": {
+          "dependencies": {
+            "Xamarin.Android.Support.Design": {
+              "target": "Package",
+              "version": "[27.0.2.1, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

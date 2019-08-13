@@ -28,11 +28,11 @@ namespace RestaurantApp
             registerBtn = FindViewById<Button>(Resource.Id.signup);
             DBHelper obj = new DBHelper(this);
             Android.App.AlertDialog.Builder alert = new Android.App.AlertDialog.Builder(this);
+            obj.InsertRestaurant("Alo", "Queen Street", "Salad and Subway", Resource.Drawable.alo);
 
 
 
 
-           
 
             myBtn.Click += delegate {
 

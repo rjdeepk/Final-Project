@@ -79,21 +79,15 @@ namespace RestaurantApp
             db.ExecSQL(CreateUserTableQuery2);
             Console.WriteLine("Table3");
             db.ExecSQL(CreateUserTableQuery3);
-            /*InsertUser("test", "abc@gmail.com", "test", "134523");
+            
+            
+           
+            
 
+            
 
-            InsertRestaurant("Richmond", "Richmond", "Bar and Grill");
-            InsertRestaurant("Edulis", "Etobicoke", "Sweets and Bakery");
-            InsertRestaurant("Alo", "Queen Street", "Salad and Subway");
-            InsertRestaurant("Cafe", "King Street", "Salad and Green");
-            InsertRestaurant("Canoe", "North York", "Chineese");
-
-            InsertReview("abc@gmail.com", "Edulis", "This is nice Restaurant","3");
-            InsertReview("abc@gmail.com", "Cafe", "I like Sugar", "3.5");
-            InsertReview("abc@gmail.com", "Richmond", "This is good place", "4");
-            InsertFavourite("abc@gmail.com", "Edulis");
-            InsertFavourite("abc@gmail.com", "Alo");
-            */
+            
+            
         }
         //insert values user/password table
         public void InsertUser(string nameValue, string emailValue, string passwordValue, string contactValue)

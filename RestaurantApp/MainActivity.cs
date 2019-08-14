@@ -28,8 +28,19 @@ namespace RestaurantApp
             registerBtn = FindViewById<Button>(Resource.Id.signup);
             DBHelper obj = new DBHelper(this);
             Android.App.AlertDialog.Builder alert = new Android.App.AlertDialog.Builder(this);
+            obj.InsertUser("abc@gmail.com", "abc@gmail.com", "123", "134523");
+            
+            obj.InsertRestaurant("Richmond", "Richmond", "Bar and Grill", Resource.Drawable.richmond);
+            obj.InsertRestaurant("Edulis", "Etobicoke", "Sweets and Bakery", Resource.Drawable.edulis);
             obj.InsertRestaurant("Alo", "Queen Street", "Salad and Subway", Resource.Drawable.alo);
-
+            obj.InsertRestaurant("Cafe", "King Street", "Salad and Green", Resource.Drawable.cafe);
+            obj.InsertRestaurant("Canoe", "North York", "Chineese", Resource.Drawable.canoe);
+            obj.InsertReview("abc@gmail.com", "Edulis", "This is nice Restaurant", "3");
+            obj.InsertReview("abc@gmail.com", "Cafe", "I like Sugar", "3.5");
+            obj.InsertReview("abc@gmail.com", "Richmond", "This is good place", "4");
+            obj.InsertFavourite("abc@gmail.com", "Edulis");
+            obj.InsertFavourite("abc@gmail.com", "Alo");
+            
 
 
 

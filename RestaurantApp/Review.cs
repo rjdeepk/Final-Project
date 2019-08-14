@@ -68,13 +68,7 @@ namespace RestaurantApp
             reviewBtn.Click += delegate
             {
                 DBHelper obj1 = new DBHelper(localContext);
-                /*
-                obj1.InsertRestaurant("Richmond", "Richmond", "Bar and Grill", Resource.Drawable.richmond);
-                obj1.InsertRestaurant("Edulis", "Etobicoke", "Sweets and Bakery", Resource.Drawable.cafe);
-                obj1.InsertRestaurant("Alo", "Queen Street", "Salad and Subway", Resource.Drawable.edulis);
-                obj1.InsertRestaurant("Cafe", "King Street", "Salad and Green", Resource.Drawable.alo);
-                obj1.InsertRestaurant("Canoe", "North York", "Chineese", Resource.Drawable.canoe);
-               */
+                
                 user1 = user.Text;
                 var value1 = RestaurantName.SelectedItem.ToString();
                 var value2 = reviews.Text;
@@ -108,8 +102,7 @@ namespace RestaurantApp
                     });
                     Dialog dialog = alert.Create();
                     dialog.Show();
-                        Intent back = new Intent(localContext, typeof(UserTab));
-                        StartActivity(back);
+                        
 
                     
                 }

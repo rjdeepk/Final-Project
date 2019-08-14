@@ -60,7 +60,7 @@ namespace RestaurantApp
            
 
 
-           // spinnerView.ItemSelected += MyItemSelectedMethod;
+        
 
             //search
             search.QueryTextChange += Mysearch;

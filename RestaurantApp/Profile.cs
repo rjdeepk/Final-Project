@@ -117,10 +117,6 @@ namespace RestaurantApp
             resllistview.Adapter = new GetRname1(localContext, filteredList);
 
         }
-        /*public void Mysearch(object sender, SearchView.QueryTextChangeEventArgs e)
-        {
-            var srch = e.NewText;
-            System.Console.WriteLine("Search is:-" + srch);
-        }*/
+       
     }
 }

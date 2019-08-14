@@ -41,43 +41,27 @@ namespace RestaurantApp
             }
             myadp = new ArrayAdapter(this, Android.Resource.Layout.SimpleListItem1, rsname1);
             list.Adapter = myadp;
-            /*spinnerView1 = FindViewById<Spinner>(Resource.Id.spinner2);
-
-            spinnerView1.Adapter = new ArrayAdapter
-                (this, Android.Resource.Layout.SimpleListItem1, myCategory);
-
-
-            spinnerView1.ItemSelected += MyItemSelectedMethod;
-            */
-            //search
-            search.QueryTextChange += Mysearch;
-        }
-
-
-        public void Mysearch(object sender, SearchView.QueryTextChangeEventArgs e)
-        {
-            var srch = e.NewText;
-            System.Console.WriteLine("Search is:-" + srch);
-        }
-        void MyItemSelectedMethod(object sender, AdapterView.ItemSelectedEventArgs e)
-        {
-            var index = e.Position;
-
-            var value = myCategory[index];
-            System.Console.WriteLine("value is " + value);
-
-
-            if (value.Equals("logout"))
-            {
-                Intent registerScreen = new Intent(this, typeof(MainActivity));
-                StartActivity(registerScreen);
-
-
-            }
             
-
+            //search
+            
+        
+        search.QueryTextChange += Mysearch;
         }
+
+
+    public void Mysearch(object sender, SearchView.QueryTextChangeEventArgs e)
+    {
+        var srch = e.NewText;
+        System.Console.WriteLine("Search is:-" + srch);
+    }
+
+
+
+
+
+
+}
 
         // Create your application here
     }
-}
+
